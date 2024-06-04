@@ -653,6 +653,10 @@ a {
     line-height: 1.75; /* 175% */
 }
 
+.blog .item .btn {
+    min-width: 118px;
+}
+
 .blog .item .btn:hover {
     background: var(--primary-color);
     color: #fff;
