@@ -116,7 +116,7 @@ a {
 
 /* === Hero left === */
 .hero {
-    padding: 56px 0 65px;
+    padding-top: 56px;
     background: #fffcf4;
 }
 
@@ -138,7 +138,6 @@ a {
     border-radius: 20px;
     /* Sử dụng để căn theo đường cơ ở đâu */
     /* vertical-align: bottom; */
-    display: block;
 }
 
 .hero-summary {

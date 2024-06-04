@@ -116,7 +116,7 @@ a {
 
 /* === Hero left === */
 .hero {
-    padding: 56px 0 65px;
+    padding-top: 56px;
     background: #fffcf4;
 }
 
@@ -136,9 +136,6 @@ a {
     /* Lấy được ảnh không bị méo nhưng có thể mất đi 1 phần của ảnh */
     object-fit: cover;
     border-radius: 20px;
-    /* Sử dụng để căn theo đường cơ ở đâu */
-    /* vertical-align: bottom; */
-    display: block;
 }
 
 .hero-summary {
