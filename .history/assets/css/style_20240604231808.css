@@ -594,10 +594,8 @@ a {
 .blog .item {
     /* Tránh không bị nén ảnh */
     flex-shrink: 0;
-    /* Hoặc là dùng 33.33% - 20px */
     width: calc((100% - 60px) / 3);
-    /* transition: 3s ease;
-    border-radius: 16px; */
+    border-radius: 16px;
     background: #fff;
 }
 

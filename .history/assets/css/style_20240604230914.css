@@ -588,16 +588,11 @@ a {
     margin-top: 55px;
     display: flex;
     gap: 30px;
-    overflow: hidden;
 }
 
 .blog .item {
-    /* Tránh không bị nén ảnh */
-    flex-shrink: 0;
-    /* Hoặc là dùng 33.33% - 20px */
-    width: calc((100% - 60px) / 3);
-    /* transition: 3s ease;
-    border-radius: 16px; */
+    width: 33.33%;
+    border-radius: 16px;
     background: #fff;
 }
 
@@ -679,10 +674,8 @@ a {
     height: 6px;
     border-radius: 50%;
     background: #5f5b53;
-    cursor: pointer;
 }
 
 .blog .dot.active {
-    cursor: default;
     background: var(--primary-color);
 }
