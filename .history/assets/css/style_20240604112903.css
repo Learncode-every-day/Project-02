@@ -35,7 +35,6 @@ a {
 }
 
 .btn:hover {
-    cursor: pointer;
     opacity: 0.8;
 }
 
@@ -323,7 +322,6 @@ a {
 }
 
 .popular-top .control-btn:hover {
-    cursor: pointer;
     color: #fff;
     background: var(--primary-color);
 }
@@ -340,11 +338,6 @@ a {
     border-radius: 12px;
     border: 1px solid #e2dfda;
     background: #fff;
-}
-
-.popular .course-item:hover {
-    border-color: transparent;
-    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
 }
 
 .popular .course-item .thumb {
@@ -368,7 +361,7 @@ a {
     justify-content: space-between;
 }
 
-.popular .course-item .title a {
+.popular .course-item .title {
     color: #171100;
     font-size: 1.8rem;
     font-weight: 600;
@@ -407,7 +400,6 @@ a {
 }
 
 .popular .course-item .book-btn:hover {
-    cursor: pointer;
     color: #fff;
     background: var(--primary-color);
 }

@@ -35,7 +35,6 @@ a {
 }
 
 .btn:hover {
-    cursor: pointer;
     opacity: 0.8;
 }
 
@@ -323,7 +322,6 @@ a {
 }
 
 .popular-top .control-btn:hover {
-    cursor: pointer;
     color: #fff;
     background: var(--primary-color);
 }
@@ -342,11 +340,6 @@ a {
     background: #fff;
 }
 
-.popular .course-item:hover {
-    border-color: transparent;
-    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
-}
-
 .popular .course-item .thumb {
     /* chỉnh kích thước để đè lên border */
     margin: -1px;
@@ -360,7 +353,6 @@ a {
     padding: 16px 22px 22px;
 }
 
-.popular .course-item .foot,
 .popular .course-item .rating,
 .popular .course-item .head {
     display: flex;
@@ -368,7 +360,7 @@ a {
     justify-content: space-between;
 }
 
-.popular .course-item .title a {
+.popular .course-item .title {
     color: #171100;
     font-size: 1.8rem;
     font-weight: 600;
@@ -384,30 +376,9 @@ a {
 }
 
 .popular .course-item .desc {
-    margin-top: 6px;
     color: #5f5b53;
+    font-family: Poppins;
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 1.86; /* 185.714% */
-}
-
-.popular .course-item .foot {
-    margin-top: 12px;
-}
-
-.popular .course-item .price {
-    color: #171100;
-    font-size: 1.8rem;
-    font-weight: 600;
-    line-height: 1.67; /* 166.667% */
-}
-
-.popular .course-item .book-btn {
-    border: none;
-}
-
-.popular .course-item .book-btn:hover {
-    cursor: pointer;
-    color: #fff;
-    background: var(--primary-color);
 }

@@ -35,7 +35,6 @@ a {
 }
 
 .btn:hover {
-    cursor: pointer;
     opacity: 0.8;
 }
 
@@ -342,11 +341,6 @@ a {
     background: #fff;
 }
 
-.popular .course-item:hover {
-    border-color: transparent;
-    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
-}
-
 .popular .course-item .thumb {
     /* chỉnh kích thước để đè lên border */
     margin: -1px;
@@ -368,7 +362,7 @@ a {
     justify-content: space-between;
 }
 
-.popular .course-item .title a {
+.popular .course-item .title {
     color: #171100;
     font-size: 1.8rem;
     font-weight: 600;
