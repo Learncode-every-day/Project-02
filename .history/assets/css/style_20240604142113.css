@@ -526,21 +526,10 @@ a {
 }
 
 .features .content {
-    width: 42.7%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    width: 43%;
 }
 
 .features .desc {
     margin-top: 16px;
     line-height: 1.75; /* 175% */
-}
-
-.features .content .cta-btn {
-    margin-top: 32px;
-    min-width: 137px;
-    color: #fff;
-    background: var(--primary-color);
 }
