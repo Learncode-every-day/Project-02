@@ -430,16 +430,10 @@ a {
 
 .feedback-list {
     display: flex;
-    overflow: hidden;
 }
 
 .feedback-item {
     display: flex;
-    width: 100%;
-    flex-shrink: 0;
-    /* Trượt vào */
-    /* transform: translateX(-100%);
-    transition: all ease 0.3s; */
 }
 
 .feedback-item .avatar {
