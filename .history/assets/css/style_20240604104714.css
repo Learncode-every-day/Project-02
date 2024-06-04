@@ -294,7 +294,6 @@ a {
 
 .popular-top {
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -317,10 +316,4 @@ a {
     border-radius: 50%;
     border: 1px solid var(--primary-color);
     background: transparent;
-    color: var(--primary-color);
-}
-
-.popular-top .control-btn:hover {
-    color: #fff;
-    background: var(--primary-color);
 }

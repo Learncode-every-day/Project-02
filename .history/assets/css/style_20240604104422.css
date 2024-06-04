@@ -294,33 +294,10 @@ a {
 
 .popular-top {
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
 .popular-top .desc {
     margin-top: 16px;
     width: 458px;
-}
-
-.popular-top .controls {
-    display: flex;
-    gap: 18px;
-}
-
-.popular-top .control-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 1px solid var(--primary-color);
-    background: transparent;
-    color: var(--primary-color);
-}
-
-.popular-top .control-btn:hover {
-    color: #fff;
-    background: var(--primary-color);
 }
