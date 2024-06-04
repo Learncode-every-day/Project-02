@@ -467,23 +467,12 @@ a {
     height: 6px;
     border-radius: 50%;
     background: #634700;
-    cursor: pointer;
 }
 
-.feedback-item .dot.active {
-    cursor: default;
-    background: #ffb900;
+.feedback .dot:last-child {
+    margin-right: -6px;
 }
 
 .feedback-item .content {
     width: 66%;
-    margin-left: auto;
-}
-
-.feedback-item blockquote {
-    margin-left: 30px;
-    color: #fff;
-    font-size: 2.6rem;
-    font-style: italic;
-    line-height: 1.54; /* 153.846% */
 }

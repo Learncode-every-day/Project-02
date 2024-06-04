@@ -467,12 +467,10 @@ a {
     height: 6px;
     border-radius: 50%;
     background: #634700;
-    cursor: pointer;
 }
 
-.feedback-item .dot.active {
-    cursor: default;
-    background: #ffb900;
+.feedback .dot:last-child {
+    margin-right: -6px;
 }
 
 .feedback-item .content {

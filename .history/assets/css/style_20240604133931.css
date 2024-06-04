@@ -471,7 +471,6 @@ a {
 }
 
 .feedback-item .dot.active {
-    cursor: default;
     background: #ffb900;
 }
 
