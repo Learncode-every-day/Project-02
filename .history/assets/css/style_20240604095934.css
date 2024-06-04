@@ -212,7 +212,7 @@ a {
 }
 
 .hero .desc {
-    margin-top: 22px;
+    margin-top: 20px;
     color: #5f5b53;
     font-size: 1.8rem;
     font-weight: 400;
@@ -237,7 +237,7 @@ a {
     margin-left: 28px;
     display: flex;
     align-items: center;
-    background: transparent;
+    background: #fffcf4;
     cursor: pointer;
 }
 
@@ -261,7 +261,7 @@ a {
 }
 
 .hero .stats {
-    margin: 8px 0 0 -28px;
+    margin-left: -28px;
 }
 
 .stats strong {

@@ -237,7 +237,7 @@ a {
     margin-left: 28px;
     display: flex;
     align-items: center;
-    background: transparent;
+    background: #fffcf4;
     cursor: pointer;
 }
 

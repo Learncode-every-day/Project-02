@@ -60,7 +60,6 @@ a {
 .header.fixed {
     position: sticky;
     top: -28px; /* 8 - 36 */
-    z-index: 1;
 }
 
 .header .body {
@@ -212,7 +211,7 @@ a {
 }
 
 .hero .desc {
-    margin-top: 22px;
+    margin: 22px 0;
     color: #5f5b53;
     font-size: 1.8rem;
     font-weight: 400;
@@ -237,7 +236,7 @@ a {
     margin-left: 28px;
     display: flex;
     align-items: center;
-    background: transparent;
+    background: #fffcf4;
     cursor: pointer;
 }
 
@@ -260,8 +259,8 @@ a {
     line-height: 1.67; /* 166.667% */
 }
 
-.hero .stats {
-    margin: 8px 0 0 -28px;
+.stars {
+    margin-left: -8px;
 }
 
 .stats strong {
