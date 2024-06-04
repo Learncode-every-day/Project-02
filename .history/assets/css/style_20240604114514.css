@@ -81,10 +81,6 @@ a {
     --line-clamp: 2;
 }
 
-.word-break-all {
-    word-break: break-all;
-}
-
 /* ===== Header ===== */
 .header {
     background: #fffcf4;
