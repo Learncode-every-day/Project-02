@@ -556,10 +556,10 @@ a {
 }
 
 .features-2nd .content {
-    width: 51.2%;
+    width: 50%;
 }
 
-.features-2nd .images img {
+.features-2nd {
     width: 470px;
     height: 440px;
 }

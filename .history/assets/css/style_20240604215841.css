@@ -547,19 +547,6 @@ a {
 }
 
 /* === Features-1st === */
-.features-2nd {
-    margin-top: 35px;
-}
-
 .features-2nd .body {
     flex-direction: row-reverse;
-}
-
-.features-2nd .content {
-    width: 51.2%;
-}
-
-.features-2nd .images img {
-    width: 470px;
-    height: 440px;
 }

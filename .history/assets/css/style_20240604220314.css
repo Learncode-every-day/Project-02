@@ -548,7 +548,7 @@ a {
 
 /* === Features-1st === */
 .features-2nd {
-    margin-top: 35px;
+    margin-top: 70px;
 }
 
 .features-2nd .body {
@@ -556,10 +556,5 @@ a {
 }
 
 .features-2nd .content {
-    width: 51.2%;
-}
-
-.features-2nd .images img {
-    width: 470px;
-    height: 440px;
+    width: 49%;
 }
