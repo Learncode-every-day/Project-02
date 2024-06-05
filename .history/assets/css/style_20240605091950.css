@@ -41,7 +41,7 @@ a {
 
 .main-content {
     width: 1170px;
-    max-width: calc(100% - 48px); /*Để cho mỗi bên dư ra 24px khi thu nhỏ */
+    max-width: (100% - 48px); /*Để cho mỗi bên dư ra 24px khi thu nhỏ */
     margin-left: auto;
     margin-right: auto;
 }
